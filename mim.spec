@@ -1,12 +1,12 @@
 Summary:	MIM Isn't Mtv
 Summary(pl):	MIM Inny ni¿ Mtv
 Name:		mim
-Version:	1.2
-Release:	2
+Version:	1.4
+Release:	1
 License:	GPL
 Group:		X11/Applications/Multimedia
 Source0:	ftp://limestone.uoregon.edu/pub/videolab/%{name}-%{version}.tar.gz
-# Source0-md5:	ca4fa39c8d2cc8ee32d22247e03fcade
+# Source0-md5:	a9fe1664e3b44aa684e5127bec2711dd
 URL:		http://videolab.uoregon.edu/mim/
 BuildRequires:	gtk+-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
