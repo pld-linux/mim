@@ -6,6 +6,7 @@ Release:	2
 License:	GPL
 Group:		X11/Applications/Multimedia
 Source0:	ftp://limestone.uoregon.edu/pub/videolab/%{name}-%{version}.tar.gz
+# Source0-md5:	ca4fa39c8d2cc8ee32d22247e03fcade
 URL:		http://videolab.uoregon.edu/mim/
 BuildRequires:	gtk+-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
