@@ -39,8 +39,6 @@ install -d $RPM_BUILD_ROOT{%{_sysconfdir}/sdr/plugins,%{_mandir}/man1}
 install examples/* $RPM_BUILD_ROOT%{_sysconfdir}/sdr/plugins
 install docs/* $RPM_BUILD_ROOT%{_mandir}/man1
 
-gzip -9nf README
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
