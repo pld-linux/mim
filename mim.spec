@@ -5,8 +5,6 @@ Version:	1.2
 Release:	2
 License:	GPL
 Group:		X11/Applications/Multimedia
-Group(de):	X11/Applikationen/Multimedia
-Group(pl):	X11/Aplikacje/Multimedia
 Source0:	ftp://limestone.uoregon.edu/pub/videolab/%{name}-%{version}.tar.gz
 URL:		http://videolab.uoregon.edu/mim/
 BuildRequires:	gtk+-devel
