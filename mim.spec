@@ -44,7 +44,7 @@ gzip -9nf README
 %clean
 rm -rf $RPM_BUILD_ROOT
 
-%files 
+%files
 %defattr(644,root,root,755)
 %doc README*
 %attr(755,root,root) %{_bindir}/*
