@@ -22,7 +22,7 @@ View mpeg-1 audio and video multicast rtp streams.
 
 %build
 rm config.cache
-%configure \
+%configure2_13 \
 	--enable-gui \
         --with-gtk-prefix=%{_prefix}
 
