@@ -1,7 +1,8 @@
-Summary:	MIM Isn't mtv
+Summary:	MIM Isn't Mtv
+Summary(pl):	MIM Inny ni¿ Mtv
 Name:		mim
 Version:	1.2
-Release:	1
+Release:	2
 License:	GPL
 Group:		X11/Applications/Multimedia
 Group(de):	X11/Applikationen/Multimedia
@@ -17,11 +18,14 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 View mpeg-1 audio and video multicast rtp streams.
 
+%description -l pl
+Odtwarzacz d¼wiêku i obrazu MPEG-1 oraz multicastowych strumieni rtp.
+
 %prep
 %setup -q
 
 %build
-rm config.cache
+rm -f config.cache
 %configure2_13 \
 	--enable-gui \
         --with-gtk-prefix=%{_prefix}
