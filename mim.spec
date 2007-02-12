@@ -1,5 +1,5 @@
 Summary:	MIM Isn't Mtv
-Summary(pl):	MIM Inny ni¿ Mtv
+Summary(pl.UTF-8):   MIM Inny niÅ¼ Mtv
 Name:		mim
 Version:	1.4
 Release:	1
@@ -15,8 +15,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 View mpeg-1 audio and video multicast rtp streams.
 
-%description -l pl
-Odtwarzacz d¼wiêku i obrazu MPEG-1 oraz multicastowych strumieni rtp.
+%description -l pl.UTF-8
+Odtwarzacz dÅºwiÄ™ku i obrazu MPEG-1 oraz multicastowych strumieni rtp.
 
 %prep
 %setup -q
