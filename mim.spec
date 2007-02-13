@@ -1,5 +1,5 @@
 Summary:	MIM Isn't Mtv
-Summary(pl.UTF-8):   MIM Inny niż Mtv
+Summary(pl.UTF-8):	MIM Inny niż Mtv
 Name:		mim
 Version:	1.4
 Release:	1
